@@ -1,0 +1,226 @@
+2019-36-08-main--INFO -org.springframework.context.support.ClassPathXmlApplicationContext:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46f5f779: startup date [Tue Jan 08 19:36:17 IST 2019]; root of context hierarchy
+2019-36-08-main--INFO -org.springframework.beans.factory.xml.XmlBeanDefinitionReader:Loading XML bean definitions from class path resource [context.xml]
+2019-36-08-main--INFO -org.springframework.jdbc.datasource.DriverManagerDataSource:Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-36-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:****** Welcome to Money Money Bank********
+2019-36-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:1. Open New Savings Account
+2019-36-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:2. Update Account
+2019-36-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:3. Close Account
+2019-36-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:4. Search Account
+2019-36-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:5. Withdraw
+2019-36-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:6. Deposit
+2019-36-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:7. FundTransfer
+2019-36-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:8. Check Current Balance
+2019-36-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:9. Get All Savings Account Details
+2019-36-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:10. Sort Accounts
+2019-36-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:11. Exit
+2019-36-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:Make your choice: 
+2019-37-08-main--INFO -org.springframework.context.support.ClassPathXmlApplicationContext:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46f5f779: startup date [Tue Jan 08 19:37:08 IST 2019]; root of context hierarchy
+2019-37-08-main--INFO -org.springframework.beans.factory.xml.XmlBeanDefinitionReader:Loading XML bean definitions from class path resource [context.xml]
+2019-37-08-main--INFO -org.springframework.jdbc.datasource.DriverManagerDataSource:Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-37-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:****** Welcome to Money Money Bank********
+2019-37-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:1. Open New Savings Account
+2019-37-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:2. Update Account
+2019-37-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:3. Close Account
+2019-37-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:4. Search Account
+2019-37-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:5. Withdraw
+2019-37-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:6. Deposit
+2019-37-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:7. FundTransfer
+2019-37-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:8. Check Current Balance
+2019-37-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:9. Get All Savings Account Details
+2019-37-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:10. Sort Accounts
+2019-37-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:11. Exit
+2019-37-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:Make your choice: 
+2019-38-08-main--INFO -org.springframework.context.support.ClassPathXmlApplicationContext:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46f5f779: startup date [Tue Jan 08 19:38:06 IST 2019]; root of context hierarchy
+2019-38-08-main--INFO -org.springframework.beans.factory.xml.XmlBeanDefinitionReader:Loading XML bean definitions from class path resource [context.xml]
+2019-38-08-main--INFO -org.springframework.jdbc.datasource.DriverManagerDataSource:Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-38-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:****** Welcome to Money Money Bank********
+2019-38-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:1. Open New Savings Account
+2019-38-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:2. Update Account
+2019-38-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:3. Close Account
+2019-38-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:4. Search Account
+2019-38-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:5. Withdraw
+2019-38-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:6. Deposit
+2019-38-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:7. FundTransfer
+2019-38-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:8. Check Current Balance
+2019-38-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:9. Get All Savings Account Details
+2019-38-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:10. Sort Accounts
+2019-38-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:11. Exit
+2019-38-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:Make your choice: 
+2019-39-08-main--INFO -org.springframework.context.support.ClassPathXmlApplicationContext:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46f5f779: startup date [Tue Jan 08 19:39:09 IST 2019]; root of context hierarchy
+2019-39-08-main--INFO -org.springframework.beans.factory.xml.XmlBeanDefinitionReader:Loading XML bean definitions from class path resource [context.xml]
+2019-39-08-main--INFO -org.springframework.jdbc.datasource.DriverManagerDataSource:Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:****** Welcome to Money Money Bank********
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:1. Open New Savings Account
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:2. Update Account
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:3. Close Account
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:4. Search Account
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:5. Withdraw
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:6. Deposit
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:7. FundTransfer
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:8. Check Current Balance
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:9. Get All Savings Account Details
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:10. Sort Accounts
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:11. Exit
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:Make your choice: 
+2019-39-08-main--INFO -org.springframework.context.support.ClassPathXmlApplicationContext:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46f5f779: startup date [Tue Jan 08 19:39:42 IST 2019]; root of context hierarchy
+2019-39-08-main--INFO -org.springframework.beans.factory.xml.XmlBeanDefinitionReader:Loading XML bean definitions from class path resource [context.xml]
+2019-39-08-main--INFO -org.springframework.jdbc.datasource.DriverManagerDataSource:Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:****** Welcome to Money Money Bank********
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:1. Open New Savings Account
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:2. Update Account
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:3. Close Account
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:4. Search Account
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:5. Withdraw
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:6. Deposit
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:7. FundTransfer
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:8. Check Current Balance
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:9. Get All Savings Account Details
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:10. Sort Accounts
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:11. Exit
+2019-39-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:Make your choice: 
+2019-40-08-main--INFO -org.springframework.context.support.ClassPathXmlApplicationContext:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46f5f779: startup date [Tue Jan 08 19:40:39 IST 2019]; root of context hierarchy
+2019-40-08-main--INFO -org.springframework.beans.factory.xml.XmlBeanDefinitionReader:Loading XML bean definitions from class path resource [context.xml]
+2019-40-08-main--INFO -org.springframework.jdbc.datasource.DriverManagerDataSource:Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-40-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:****** Welcome to Money Money Bank********
+2019-40-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:1. Open New Savings Account
+2019-40-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:2. Update Account
+2019-40-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:3. Close Account
+2019-40-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:4. Search Account
+2019-40-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:5. Withdraw
+2019-40-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:6. Deposit
+2019-40-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:7. FundTransfer
+2019-40-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:8. Check Current Balance
+2019-40-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:9. Get All Savings Account Details
+2019-40-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:10. Sort Accounts
+2019-40-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:11. Exit
+2019-40-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:Make your choice: 
+2019-41-08-main--INFO -org.springframework.context.support.ClassPathXmlApplicationContext:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46f5f779: startup date [Tue Jan 08 19:41:22 IST 2019]; root of context hierarchy
+2019-41-08-main--INFO -org.springframework.beans.factory.xml.XmlBeanDefinitionReader:Loading XML bean definitions from class path resource [context.xml]
+2019-41-08-main--INFO -org.springframework.jdbc.datasource.DriverManagerDataSource:Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-41-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:****** Welcome to Money Money Bank********
+2019-41-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:1. Open New Savings Account
+2019-41-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:2. Update Account
+2019-41-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:3. Close Account
+2019-41-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:4. Search Account
+2019-41-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:5. Withdraw
+2019-41-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:6. Deposit
+2019-41-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:7. FundTransfer
+2019-41-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:8. Check Current Balance
+2019-41-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:9. Get All Savings Account Details
+2019-41-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:10. Sort Accounts
+2019-41-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:11. Exit
+2019-41-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:Make your choice: 
+2019-42-08-main--INFO -org.springframework.context.support.ClassPathXmlApplicationContext:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46f5f779: startup date [Tue Jan 08 19:42:25 IST 2019]; root of context hierarchy
+2019-42-08-main--INFO -org.springframework.beans.factory.xml.XmlBeanDefinitionReader:Loading XML bean definitions from class path resource [context.xml]
+2019-42-08-main--INFO -org.springframework.jdbc.datasource.DriverManagerDataSource:Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-42-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:****** Welcome to Money Money Bank********
+2019-42-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:1. Open New Savings Account
+2019-42-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:2. Update Account
+2019-42-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:3. Close Account
+2019-42-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:4. Search Account
+2019-42-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:5. Withdraw
+2019-42-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:6. Deposit
+2019-42-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:7. FundTransfer
+2019-42-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:8. Check Current Balance
+2019-42-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:9. Get All Savings Account Details
+2019-42-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:10. Sort Accounts
+2019-42-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:11. Exit
+2019-42-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:Make your choice: 
+2019-43-08-main--INFO -org.springframework.context.support.ClassPathXmlApplicationContext:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46f5f779: startup date [Tue Jan 08 19:43:45 IST 2019]; root of context hierarchy
+2019-43-08-main--INFO -org.springframework.beans.factory.xml.XmlBeanDefinitionReader:Loading XML bean definitions from class path resource [context.xml]
+2019-43-08-main--INFO -org.springframework.jdbc.datasource.DriverManagerDataSource:Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-43-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:****** Welcome to Money Money Bank********
+2019-43-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:1. Open New Savings Account
+2019-43-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:2. Update Account
+2019-43-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:3. Close Account
+2019-43-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:4. Search Account
+2019-43-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:5. Withdraw
+2019-43-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:6. Deposit
+2019-43-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:7. FundTransfer
+2019-43-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:8. Check Current Balance
+2019-43-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:9. Get All Savings Account Details
+2019-43-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:10. Sort Accounts
+2019-43-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:11. Exit
+2019-43-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:Make your choice: 
+2019-45-08-main--INFO -org.springframework.context.support.ClassPathXmlApplicationContext:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46f5f779: startup date [Tue Jan 08 19:45:07 IST 2019]; root of context hierarchy
+2019-45-08-main--INFO -org.springframework.beans.factory.xml.XmlBeanDefinitionReader:Loading XML bean definitions from class path resource [context.xml]
+2019-45-08-main--INFO -org.springframework.jdbc.datasource.DriverManagerDataSource:Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-45-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:****** Welcome to Money Money Bank********
+2019-45-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:1. Open New Savings Account
+2019-45-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:2. Update Account
+2019-45-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:3. Close Account
+2019-45-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:4. Search Account
+2019-45-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:5. Withdraw
+2019-45-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:6. Deposit
+2019-45-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:7. FundTransfer
+2019-45-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:8. Check Current Balance
+2019-45-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:9. Get All Savings Account Details
+2019-45-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:10. Sort Accounts
+2019-45-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:11. Exit
+2019-45-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:Make your choice: 
+2019-46-08-main--INFO -org.springframework.context.support.ClassPathXmlApplicationContext:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46f5f779: startup date [Tue Jan 08 19:46:26 IST 2019]; root of context hierarchy
+2019-46-08-main--INFO -org.springframework.beans.factory.xml.XmlBeanDefinitionReader:Loading XML bean definitions from class path resource [context.xml]
+2019-46-08-main--INFO -org.springframework.jdbc.datasource.DriverManagerDataSource:Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:****** Welcome to Money Money Bank********
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:1. Open New Savings Account
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:2. Update Account
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:3. Close Account
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:4. Search Account
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:5. Withdraw
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:6. Deposit
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:7. FundTransfer
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:8. Check Current Balance
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:9. Get All Savings Account Details
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:10. Sort Accounts
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:11. Exit
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:Make your choice: 
+2019-46-08-main--INFO -org.springframework.context.support.ClassPathXmlApplicationContext:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46f5f779: startup date [Tue Jan 08 19:46:43 IST 2019]; root of context hierarchy
+2019-46-08-main--INFO -org.springframework.beans.factory.xml.XmlBeanDefinitionReader:Loading XML bean definitions from class path resource [context.xml]
+2019-46-08-main--INFO -org.springframework.context.support.ClassPathXmlApplicationContext:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46f5f779: startup date [Tue Jan 08 19:46:45 IST 2019]; root of context hierarchy
+2019-46-08-main--INFO -org.springframework.beans.factory.xml.XmlBeanDefinitionReader:Loading XML bean definitions from class path resource [context.xml]
+2019-46-08-main--INFO -org.springframework.jdbc.datasource.DriverManagerDataSource:Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:****** Welcome to Money Money Bank********
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:1. Open New Savings Account
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:2. Update Account
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:3. Close Account
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:4. Search Account
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:5. Withdraw
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:6. Deposit
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:7. FundTransfer
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:8. Check Current Balance
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:9. Get All Savings Account Details
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:10. Sort Accounts
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:11. Exit
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:Make your choice: 
+2019-46-08-main--INFO -org.springframework.context.support.ClassPathXmlApplicationContext:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46f5f779: startup date [Tue Jan 08 19:46:52 IST 2019]; root of context hierarchy
+2019-46-08-main--INFO -org.springframework.beans.factory.xml.XmlBeanDefinitionReader:Loading XML bean definitions from class path resource [context.xml]
+2019-46-08-main--INFO -org.springframework.jdbc.datasource.DriverManagerDataSource:Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:****** Welcome to Money Money Bank********
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:1. Open New Savings Account
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:2. Update Account
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:3. Close Account
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:4. Search Account
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:5. Withdraw
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:6. Deposit
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:7. FundTransfer
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:8. Check Current Balance
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:9. Get All Savings Account Details
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:10. Sort Accounts
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:11. Exit
+2019-46-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:Make your choice: 
+2019-47-08-main--INFO -org.springframework.context.support.ClassPathXmlApplicationContext:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46f5f779: startup date [Tue Jan 08 19:47:51 IST 2019]; root of context hierarchy
+2019-47-08-main--INFO -org.springframework.beans.factory.xml.XmlBeanDefinitionReader:Loading XML bean definitions from class path resource [context.xml]
+2019-47-08-main--INFO -org.springframework.jdbc.datasource.DriverManagerDataSource:Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-47-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:****** Welcome to Money Money Bank********
+2019-47-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:1. Open New Savings Account
+2019-47-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:2. Update Account
+2019-47-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:3. Close Account
+2019-47-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:4. Search Account
+2019-47-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:5. Withdraw
+2019-47-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:6. Deposit
+2019-47-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:7. FundTransfer
+2019-47-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:8. Check Current Balance
+2019-47-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:9. Get All Savings Account Details
+2019-47-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:10. Sort Accounts
+2019-47-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:11. Exit
+2019-47-08-main--INFO -com.cg.app.pojo.cui.AccountCUI:Make your choice: 
