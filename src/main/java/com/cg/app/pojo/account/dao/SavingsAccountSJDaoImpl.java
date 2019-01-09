@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
+import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
@@ -52,14 +53,7 @@ public class SavingsAccountSJDaoImpl implements SavingsAccountDao {
 		return jdbcTemplate.query("select * from account2", new SavingsAccountMapper());
 	}
 
-	@Override
-	public SavingsAccount updateAccount(SavingsAccount account) {
-		jdbcTemplate.update("INSERT INTO ACCOUNT2 VALUES(?,?,?,?,?)",
-				new Object[] { 
-						account.getBankAccount().getAccountHolderName(), 
-						account.isSalary(), null, "SA" } );
-		return account;
-	}
+	
 
 	public void updateBalance(int accountNumber, double accountBalance) throws ClassNotFoundException, SQLException {
 		jdbcTemplate.update("UPDATE ACCOUNT2 SET accountBalance=? where accountNumber=?", new Object[] {accountBalance,accountNumber});
@@ -84,10 +78,21 @@ public class SavingsAccountSJDaoImpl implements SavingsAccountDao {
 			break;
 		}
 
-		System.out.println(query);
 		return jdbcTemplate.query(query, new SavingsAccountMapper());
 
 	}
+
+	public SavingsAccount updateAccount(SavingsAccount account) throws DataAccessException, SQLException, AccountNotFoundException, ClassNotFoundException {
+		jdbcTemplate.update("UPDATE account2 SET account_hn ? Salaried ? where accountNumber=?",
+				new Object[] { 
+						account.getBankAccount().getAccountHolderName(), account.isSalary(),account.getBankAccount().getAccountNumber()
+						 } );
+		return null;
+	}
+
+	
+
+	
 
 	
 }

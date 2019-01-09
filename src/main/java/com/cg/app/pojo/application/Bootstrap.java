@@ -5,11 +5,9 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-import org.apache.log4j.BasicConfigurator;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.cg.app.pojo.account.savings.SavingsAccount;
 import com.cg.app.pojo.cui.AccountCUI;
 import com.cg.app.pojo.exception.AccountNotFoundException;
 
@@ -35,7 +33,7 @@ public class Bootstrap {
 		ApplicationContext context = new ClassPathXmlApplicationContext("context.xml");
 		AccountCUI accountCUI = context.getBean(AccountCUI.class);
 		accountCUI.start();
-		BasicConfigurator.configure();
+
 
 	}
 

@@ -1,22 +1,23 @@
 package com.cg.app.pojo.validate;
 
-import org.apache.log4j.BasicConfigurator;
-import org.apache.log4j.Logger;
+
+import java.util.logging.Logger;
+
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.springframework.stereotype.Service;
 
 @Service
 public class ValidateAOP {
-	
+
 	private Logger logger = Logger.getLogger(ValidateAOP.class.getName());
 
-	@Around("execution(*com.cg.app.account.service.SavingsAccountSJServiceImpl.deposit(..)")
+	@Around("execution(* com.cg.app.account.service.SavingsAccountSJServiceImpl.deposit(..)")
 	public void log3(ProceedingJoinPoint pjp) throws Throwable {
 		logger.info("Before Logging");
 		pjp.proceed();
 		logger.info("Function name is" + pjp.getSignature());
-		logger.info("Successfull");
+		logger.info("Successfully Added money");
 		logger.info("Parameter is");
 		Object[] params = pjp.getArgs();
 		Double amount = (Double) params[1];
@@ -25,12 +26,12 @@ public class ValidateAOP {
 		}
 	}
 
-	@Around("execution(*com.cg.app.account.service.SavingsAccountSJServiceImpl.withdraw(..)")
+	@Around("execution(* com.cg.app.account.service.SavingsAccountSJServiceImpl.withdraw(..)")
 	public void log5(ProceedingJoinPoint pjp) throws Throwable {
 		logger.info("Before Logging");
 		pjp.proceed();
 		logger.info("Function name is" + pjp.getSignature());
-		logger.info("Successfull");
+		logger.info("Successfully Withdrawn Money");
 		logger.info("Parameter is");
 		Object[] params = pjp.getArgs();
 		Double amount = (Double) params[1];
@@ -40,7 +41,7 @@ public class ValidateAOP {
 		}
 	}
 
-	@Around("execution(*com.cg.app.account.service.SavingsAccountSJServiceImpl.fundTransfer(..)")
+	@Around("execution(* com.cg.app.account.service.SavingsAccountSJServiceImpl.fundTransfer(..)")
 	public void log6(ProceedingJoinPoint pjp) throws Throwable {
 		logger.info("Before Logging");
 		pjp.proceed();
@@ -56,7 +57,8 @@ public class ValidateAOP {
 		}
 	}
 
-//	public void fundTransfer(SavingsAccount sender, SavingsAccount receiver, double amount)
+	// public void fundTransfer(SavingsAccount sender, SavingsAccount receiver,
+	// double amount)
 //			throws ClassNotFoundException, SQLException {
 //		withdraw(sender, amount);
 //		deposit(receiver, amount);
@@ -66,6 +68,5 @@ public class ValidateAOP {
 //	public void log4(Integer retVal) {
 //		logger.info("" + retVal);
 //	}
-	
 
 }

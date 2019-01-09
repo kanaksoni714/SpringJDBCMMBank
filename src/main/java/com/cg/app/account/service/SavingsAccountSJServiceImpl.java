@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
+import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -61,10 +62,8 @@ public class SavingsAccountSJServiceImpl implements SavingsAccountService{
 	}
 
 	@Override
-	public SavingsAccount getAccountByName(int accountHolderName)
-			throws ClassNotFoundException, SQLException, AccountNotFoundException {
-		// TODO Auto-generated method stub
-		return null;
+	public SavingsAccount getAccountByName(String accountHolderName)throws ClassNotFoundException, SQLException, AccountNotFoundException {
+		return savingsAccountDao.getAccountByName(accountHolderName);
 	}
 
 	@Override
@@ -73,9 +72,9 @@ public class SavingsAccountSJServiceImpl implements SavingsAccountService{
 	}
 
 	@Override
-	public SavingsAccount updateAccount(SavingsAccount account) {
-		// TODO Auto-generated method stub
-		return null;
+	public SavingsAccount updateAccount(SavingsAccount account) throws DataAccessException, ClassNotFoundException, SQLException, AccountNotFoundException {
+		
+		return savingsAccountDao.updateAccount(account);
 	}
 
 	@Override
@@ -89,7 +88,6 @@ public class SavingsAccountSJServiceImpl implements SavingsAccountService{
 		if (amount > 0 && currentBalance >= amount) {
 			currentBalance -= amount;
 			savingsAccountDao.updateBalance(account.getBankAccount().getAccountNumber(), currentBalance);
-			//savingsAccountDao.commit();
 		} else {
 			throw new InsufficientFundsException("Invalid Input or Insufficient Funds!");
 		}

@@ -3,8 +3,8 @@ package com.cg.app.pojo.cui;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Scanner;
+import java.util.logging.Logger;
 
-import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -15,7 +15,8 @@ import com.cg.app.pojo.exception.AccountNotFoundException;
 
 @Component
 public class AccountCUI {
-	private Logger logger = Logger.getLogger(AccountCUI.class);
+//	java.util.logging.Logger
+	private Logger logger = Logger.getLogger(AccountCUI.class.getName());
 	private Scanner scanner = new Scanner(System.in);
 
 	@Autowired
@@ -78,26 +79,61 @@ public class AccountCUI {
 			closeAccount();
 			break;
 		default:
-			logger.error("Invalid Choice!");
+			System.out.println("Invalid Choice!");
 			break;
 		}
 
 	}
 
 	private void searchAccount() {
-		// TODO Auto-generated method stub
+		logger.info("Enter the Account Number you wish to search");
 
 	}
 
-	private void updateAccount() {
-		logger.info("");
+	private void updateAccount() throws ClassNotFoundException, SQLException, AccountNotFoundException {
+		logger.info("Enter your account number");
+		int accountNumber = scanner.nextInt();
+		
+		SavingsAccount account = savingsAccountService.getAccountById(accountNumber);
+		
+		String accountHolderName = account.getBankAccount().getAccountHolderName();
+		boolean salary = account.isSalary();
+		double accountBalance = account.getBankAccount().getAccountBalance();
+		
+		if (account != null)
+		{
+			System.out.println("choose what you want to update:\n 1).Name \n 2).Salaried \n 3).Both");
+			int choice = scanner.nextInt();
+			
+			switch (choice) {
+			case 1:
+				String newAccountHolderName=scanner.toString();
+				logger.info("Enter the updated Account Holder Name");
+				break;
+			case 2:
+				boolean salaryType=scanner.hasNext();
+				logger.info("Enter the updated Salary Type");
+				break;
+   			case 3:
+   				String newAccountHolderName1=scanner.toString();
+				logger.info("Enter the updated Account Holder Name");
+				boolean salaryType1=scanner.hasNext();
+				logger.info("Enter the updated Salary Type");
+   				break;
+   				
+			default:
+				logger.info("Invalid Choice");
+				break;
+			}
+		account = new SavingsAccount(accountNumber, accountHolderName, accountBalance, salary);
+		savingsAccountService.updateAccount(account);
+		}else
+		{
+			logger.info("Invalid Account Number");
+		}
 	}
 
-//	private  void updateAccount(String accountHolderName,
-//			boolean salary) {
-//		savingsAccountService.updateAccount(accountHolderName, salary);
-//		
-//	}
+
 
 	private void fundTransfer() throws ClassNotFoundException, SQLException, AccountNotFoundException {
 		logger.info("Enter Account Sender's Number: ");
@@ -141,7 +177,7 @@ public class AccountCUI {
 		int accountNumber = scanner.nextInt();
 
 		boolean savingsAccount = savingsAccountService.closeAccount(accountNumber);
-		logger.info(savingsAccount);
+		System.out.println(savingsAccount);
 
 	}
 
@@ -167,7 +203,7 @@ public class AccountCUI {
 		sortedAccounts = savingsAccountService.getSortedAccounts(choice);
 
 		for (SavingsAccount savingsAccount : sortedAccounts) {
-			logger.info(savingsAccount);
+			System.out.println(savingsAccount);
 		}
 
 	}
@@ -177,7 +213,7 @@ public class AccountCUI {
 
 		savingsAccounts = savingsAccountService.getAllSavingsAccount();
 		for (SavingsAccount savingsAccount : savingsAccounts) {
-			logger.info(savingsAccount);
+			System.out.println(savingsAccount);
 
 		}
 

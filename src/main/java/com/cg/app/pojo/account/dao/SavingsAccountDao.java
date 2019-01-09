@@ -2,11 +2,13 @@ package com.cg.app.pojo.account.dao;
 
 
 
+
 import java.sql.SQLException;
 import java.util.List;
-import java.util.Set;
 
-import com.cg.app.pojo.account.savings.*;
+import org.springframework.dao.DataAccessException;
+
+import com.cg.app.pojo.account.savings.SavingsAccount;
 import com.cg.app.pojo.exception.AccountNotFoundException;
 
 
@@ -17,13 +19,9 @@ public interface SavingsAccountDao {
 	SavingsAccount getAccountByName(String accountHolderName) throws ClassNotFoundException, SQLException, AccountNotFoundException;
 	boolean closeAccount(int accountNumber) throws SQLException, ClassNotFoundException;
 	List<SavingsAccount> getAllSavingsAccount() throws ClassNotFoundException, SQLException;
-	SavingsAccount updateAccount(SavingsAccount account);
+	SavingsAccount updateAccount(SavingsAccount account) throws DataAccessException, ClassNotFoundException, SQLException, AccountNotFoundException;
 	void updateBalance(int accountNumber,double currentBalance)throws ClassNotFoundException, SQLException;
 	List<SavingsAccount> getSortedAccounts(int choice) throws SQLException,ClassNotFoundException;
-//	void commit() throws SQLException;
-//	void sortMenu(String sortWay) throws SQLException, ClassNotFoundException;
-
-	
 	
 	
 }
